@@ -191,8 +191,9 @@ input::placeholder {
     grid-template-rows: auto;
     column-gap: 2rem;
     padding: 0em;
+    border: 2px solid red;
+    margin: 5rem;
   }
-
   .signup_page {
     width: 100%;
     padding: 0;
