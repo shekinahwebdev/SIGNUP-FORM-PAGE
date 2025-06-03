@@ -185,7 +185,7 @@ input::placeholder {
 
   .main {
     width: 100%;
-    max-width: 1400px;
+    max-width: 1300px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
@@ -196,6 +196,7 @@ input::placeholder {
   .signup_page {
     width: 100%;
     padding: 0;
+    /* border: 2px solid; */
   }
 
   .subscription_page {
@@ -216,7 +217,6 @@ input::placeholder {
   .input-wrapper {
     margin-bottom: 0;
     padding-bottom: 0.5rem;
-    /* border: 2px solid; */
   }
 
   input::placeholder {
@@ -245,7 +245,7 @@ input::placeholder {
   }
 
   .header .header_title {
-    font-size: 4rem;
+    font-size: 3.5rem;
     padding: 0;
     text-align: left;
   }
