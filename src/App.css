@@ -189,14 +189,13 @@ input::placeholder {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
-    column-gap: 2rem;
     padding: 0em;
-    margin: 5rem;
+    margin: 10rem;
   }
+
   .signup_page {
     width: 100%;
     padding: 0;
-    /* border: 2px solid; */
   }
 
   .subscription_page {
