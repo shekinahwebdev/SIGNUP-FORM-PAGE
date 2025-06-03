@@ -162,7 +162,7 @@ input::placeholder {
 }
 
 .input-error {
-  border: 1px solid var(--Red);
+  border: 3px solid var(--Red);
   border-radius: 5px;
 }
 
@@ -170,8 +170,6 @@ input::placeholder {
   text-align: right;
   color: var(--Red);
   font-weight: 500;
-  /* border: 2px solid var(--Red); */
-  /* margin: 0; */
 }
 
 @media screen and (min-width: 950px) {
@@ -182,14 +180,14 @@ input::placeholder {
   .main {
     width: 100%;
     max-width: 1400px;
-    border: 2px solid red;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
+    column-gap: 2rem;
     padding: 0em;
   }
+
   .signup_page {
-    border: 2px solid blue;
     width: 100%;
     padding: 0;
   }
@@ -201,30 +199,21 @@ input::placeholder {
   }
 
   .input_page {
-    border: 2px solid blue;
     width: 100%;
     padding: 3rem;
   }
 
   .error-message {
-    padding-top: 0rem;
     font-style: italic;
-    border: 2px solid;
   }
 
   .input-wrapper {
-    border: 2px solid yellow;
-    /* margin-bottom: 0.7rem; */
-    padding-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 1.2rem;
   }
 
   input::placeholder {
     font-size: 1.2rem;
-  }
-
-  .user_input {
-    border: 2px solid black;
-    margin-bottom: 0rem;
   }
 
   .submit_btn {
@@ -239,5 +228,24 @@ input::placeholder {
   .error-icon {
     width: 35px;
     height: 35px;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: flex-start;
+  }
+
+  .header .header_title {
+    font-size: 4rem;
+    padding: 0;
+    text-align: left;
+  }
+
+  .header .header_subtitle {
+    margin-top: 1.5rem;
+    text-align: left;
+    padding-left: 0;
   }
 }

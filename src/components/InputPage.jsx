@@ -38,6 +38,8 @@ const InputPage = () => {
     onSubmit: (values) => {
       alert("Form submitted successfully");
       console.log(values);
+      // page reload
+      window.location.reload();
     },
   });
 
@@ -82,9 +84,11 @@ const InputPage = () => {
                     alt="error"
                     aria-hidden="true"
                   />
-                  <p aria-live="polite" className="error-message">
-                    {formik.errors[field.name]}
-                  </p>
+                  <div className="text">
+                    <p aria-live="polite" className="error-message">
+                      {formik.errors[field.name]}
+                    </p>
+                  </div>
                 </>
               )}
             </div>
